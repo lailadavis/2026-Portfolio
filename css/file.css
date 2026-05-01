@@ -24,6 +24,7 @@ body {
     margin-top: 0px;
     height: 90px;
     list-style-type: none;
+    font-size: 20px;
 }
 
 #logo-background {
@@ -48,6 +49,7 @@ body {
     height: 140px;
     width: 937px;
     margin-top: 32px;
+    font-size: 18px;
 }
 
 #p-tag {
@@ -58,4 +60,62 @@ body {
 #text-decor {
     text-decoration: none;
     color: #8288ba;
+}
+
+#titles {
+    color: #8288ba;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#about-main-box {
+    height: 662px;
+    width: 937px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#resume {
+    border: solid 1px black;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    height: 363px;
+    width: 421px;   
+}
+
+#aboutme-words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutme-ptags {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.ptag-lines {
+    display: flex;
+    gap: 5px;
+    border: solid 0px;
+    width: 447px;
+}
+
+.yellow-letters {
+    color: #fddf92;
+}
+
+#contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    width: 937px;
+    height: 288px;
 }
