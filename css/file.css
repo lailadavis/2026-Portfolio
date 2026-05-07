@@ -49,12 +49,12 @@ body {
     height: 140px;
     width: 937px;
     margin-top: 32px;
-    font-size: 18px;
 }
 
-#p-tag {
+#wi-p-tag {
     margin-top: 0px;
     margin-left: 10px;
+    font-size: 19px;
 }
 
 #text-decor {
@@ -83,39 +83,65 @@ body {
     display: flex;
     flex-direction: column;
     border: solid 1px black;
-    height: 363px;
+    height: 325px;
     width: 421px;   
 }
 
-#aboutme-words {
+.header-words {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#aboutme-ptags {
+#header-ptags {
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 22px;
+    margin-left: 10px;
+    line-height: 2px;
 }
 
-.ptag-lines {
+.about-ptag-lines {
     display: flex;
-    gap: 5px;
     border: solid 0px;
-    width: 447px;
+    width: 421px;
 }
 
 .yellow-letters {
     color: #fddf92;
 }
 
+.span-linespacing {
+    line-height: 25px;
+}
+
+#is{
+    margin-top: 12px;
+}
+
+#fp {
+    margin-top: 2px;
+}
+
 #contact-me {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     border: solid 1px black;
     width: 937px;
-    height: 288px;
+    height: 325px;
+}
+
+#contactme {
+    margin-top: 10px;
+}
+
+.contact-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 937px;
+}
+
+p {
+    border: solid 0px;
 }
