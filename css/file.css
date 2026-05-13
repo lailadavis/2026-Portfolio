@@ -2,7 +2,31 @@ body {
     background-color: #d5d6e4;
 }
 
-#main-container {
+#main-containerpg1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    width: 1024px;
+    height: 2000px;
+    margin: 0 auto;
+    font-family: kepler-std-caption, serif;
+    font-weight: bold;
+}
+
+#main-containerpg2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    width: 1024px;
+    height: 3000px;
+    margin: 0 auto;
+    font-family: kepler-std-caption, serif;
+    font-weight: bold;
+}
+
+#main-containerpg3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +64,7 @@ body {
     margin-top: 40px;
 }
 
-#website-info {
+#website-infos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +75,7 @@ body {
     margin-top: 32px;
 }
 
-#wi-p-tag {
+#wis-p-tag {
     margin-top: 0px;
     margin-left: 10px;
     font-size: 19px;
@@ -84,7 +108,8 @@ body {
     flex-direction: column;
     border: solid 1px black;
     height: 325px;
-    width: 421px;   
+    width: 421px;
+    /* margin-left: -105px; */
 }
 
 .header-words {
@@ -123,6 +148,18 @@ body {
     margin-top: 2px;
 }
 
+#me-text {
+    margin-top: 480px;
+    /* margin-left: 54px; */
+}
+
+#photo {
+    border: solid 1px black;
+    height: 250px;
+    width: 250px;
+    margin-left: 179px;
+}
+
 #contact-me {
     display: flex;
     flex-direction: column;
@@ -133,7 +170,7 @@ body {
 }
 
 #contactme {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .contact-ptag-lines {
@@ -144,4 +181,56 @@ body {
 
 p {
     border: solid 0px;
+}
+
+/* just skills page */
+
+#acs-main-box {
+    height: 252px;
+    width: 937px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#clubs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px black;
+    width: 300px;
+    height: 252px;
+}
+
+#club-top {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.clubs-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 300px;
+}
+
+#languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px black;
+    width: 284px;
+    height: 252px;
+}
+
+#a-and-r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px black;
+    width: 335px;
+    height: 252px;
+}
+
+#so {
+    margin-top: 5px;
+    line-height: 35px;
 }
