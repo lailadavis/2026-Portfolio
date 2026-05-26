@@ -27,6 +27,13 @@ body {
     font-size: 20px;
 }
 
+#text-decor {
+    text-decoration: none;
+    color: #8288ba;
+}
+
+/* logo */
+
 #logo-background {
     background-color: #b4b7d0;
     height: 454px;
@@ -39,6 +46,8 @@ body {
     margin: 0 auto;
     margin-top: 40px;
 }
+
+/* website infos, all titles, all header p-tags */
 
 #website-infos {
     display: flex;
@@ -57,16 +66,35 @@ body {
     font-size: 19px;
 }
 
-#text-decor {
-    text-decoration: none;
-    color: #8288ba;
-}
-
 #titles {
     color: #8288ba;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+.header-words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-ptags {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    margin-left: 10px;
+    line-height: 2px;
+}
+
+.yellow-letters {
+    color: #fddf92;
+}
+
+.span-linespacing {
+    line-height: 25px;
+}
+
+/* about */
 
 #about-main-box {
     height: 662px;
@@ -127,20 +155,6 @@ body {
     border-radius: 50%;
 }
 
-.header-words {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#header-ptags {
-    display: flex;
-    flex-direction: column;
-    font-size: 22px;
-    margin-left: 10px;
-    line-height: 2px;
-}
-
 .about-ptag-lines {
     display: flex;
     border: solid 0px;
@@ -151,14 +165,6 @@ body {
     margin: 54px;
     align-self: center;
     color: #8288ba;
-}
-
-.yellow-letters {
-    color: #fddf92;
-}
-
-.span-linespacing {
-    line-height: 25px;
 }
 
 #is{
