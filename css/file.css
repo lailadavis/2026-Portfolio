@@ -47,7 +47,7 @@ body {
     margin-top: 40px;
 }
 
-/* website infos, all titles, all header p-tags */
+/* website infos, all titles, all header p-tags, all stars */
 
 #website-infos {
     display: flex;
@@ -94,6 +94,10 @@ body {
     line-height: 25px;
 }
 
+/* .stars {
+    width: 25px;
+} */
+
 /* about */
 
 #about-main-box {
@@ -103,9 +107,20 @@ body {
     justify-content: space-around;
 }
 
+/* #am-stars {
+    width: 176px;
+    height: 230pxpx;
+}
+
+#ams1 {
+    margin-top: 25.02px;
+} */
+
 #resume {
     border: solid 1px black;
 }
+
+/* add transition for resume */
 
 #right-aboutme {
     display: flex;
@@ -139,6 +154,18 @@ body {
     height: 250px;
     border-radius: 50%;
     align-self: center;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#photo-box:hover {
+    border: solid 1px black;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    align-self: center;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
 }
 
 #photo {
@@ -146,6 +173,17 @@ body {
     height: 250px;
     width: 250px;
     margin-left: 179px; 
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#photo:hover {
+    border: solid 1px black;
+    height: 250px;
+    width: 250px;
+    margin-left: 179px; 
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
 }
 
 #me-img {
@@ -180,7 +218,7 @@ body {
     /* margin-left: 54px; */
 }
 
-
+/* contact */
 
 #contact-me {
     display: flex;
