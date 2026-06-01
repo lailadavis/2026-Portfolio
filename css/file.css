@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 1px black;
+    border: solid 0px;
     width: 1024px;
     height: 2000px;
     margin: 0 auto;
@@ -24,7 +24,8 @@ body {
     margin-top: 0px;
     height: 90px;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 23px;
+    z-index: 100;
 }
 
 #text-decor {
@@ -54,7 +55,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: solid 1px black;
+    background-color: #b4b7d0;
     height: 140px;
     width: 937px;
     margin-top: 32px;
@@ -87,16 +88,16 @@ body {
 }
 
 .yellow-letters {
-    color: #fddf92;
+    color: #f1e5ab;
 }
 
 .span-linespacing {
     line-height: 25px;
 }
 
-/* .stars {
+.stars {
     width: 25px;
-} */
+}
 
 /* about */
 
@@ -107,24 +108,45 @@ body {
     justify-content: space-around;
 }
 
-/* #am-stars {
-    width: 176px;
-    height: 230pxpx;
+#ams1 {
+    position: absolute;
+    top: 664px;
+    left: 878px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
 }
 
-#ams1 {
-    margin-top: 25.02px;
-} */
+#ams1:hover {
+    position: absolute;
+    top: 664px;
+    left: 878px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+#ams2 {
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#ams2:hover {
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
 
 #resume {
-    border: solid 1px black;
+    border: solid 0px;
 }
-
-/* add transition for resume */
 
 #right-aboutme {
     display: flex;
-    border: solid 0px black;
+    border: solid 0px;
     height: 662px;
     width: 421px;
     flex-direction: column;
@@ -133,10 +155,11 @@ body {
 #about-me {
     display: flex;
     flex-direction: column;
-    border: solid 1px black;
+    border: solid 0px;
     height: 325px;
     width: 421px;
     justify-content: space-evenly;
+    background-color: #b4b7d0;
 }
 
 #me-box {
@@ -149,7 +172,7 @@ body {
 }
 
 #photo-box {
-    border: solid 1px black;
+    border: solid 0px;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -159,7 +182,7 @@ body {
 }
 
 #photo-box:hover {
-    border: solid 1px black;
+    border: solid 0px;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -169,7 +192,7 @@ body {
 }
 
 #photo {
-    border: solid 1px black;
+    border: solid 0px;
     height: 250px;
     width: 250px;
     margin-left: 179px; 
@@ -218,15 +241,32 @@ body {
     /* margin-left: 54px; */
 }
 
+#mes1 {
+    position: absolute;
+    top: 1100px;
+    left: 1200px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#mes1:hover {
+    position: absolute;
+    top: 1100px;
+    left: 1200px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
 /* contact */
 
 #contact-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid 1px black;
+    border: solid 0px;
     width: 937px;
     height: 325px;
+    background-color: #b4b7d0;
 }
 
 #contactme {
@@ -243,13 +283,13 @@ p {
     border: solid 0px;
 }
 
-/* just skills page */
+/* SKILLS PAGE */
 
 #main-containerpg2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 1px black;
+    border: solid 0px;
     width: 1024px;
     height: 3000px;
     margin: 0 auto;
@@ -257,20 +297,25 @@ p {
     font-weight: bold;
 }
 
-#acs-main-box {
+/* academic skills */
+
+#as-main-box {
     height: 252px;
     width: 937px;
     display: flex;
     justify-content: space-around;
 }
 
+/* clubs */
+
 #clubs {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid 1px black;
+    border: solid 0px;
     width: 300px;
     height: 252px;
+    background-color: #b4b7d0;
 }
 
 #club-top {
@@ -284,36 +329,82 @@ p {
     width: 300px;
 }
 
+#so {
+    margin-top: 0px;
+    line-height: 35px;
+}
+
+/* languages */
+
 #languages {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid 1px black;
+    border: solid 0px;
     width: 284px;
     height: 252px;
+    background-color: #b4b7d0;
 }
+
+#lang {
+    margin-top: 10px;
+}
+
+.lang-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 284px;
+}
+
+/* awards and rec */
 
 #a-and-r {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid 1px black;
+    border: solid 0px;
     width: 335px;
     height: 252px;
+    background-color: #b4b7d0;
 }
 
-#so {
+#a-r {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.ar-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 335px;
+}
+
+#gpa {
     margin-top: 5px;
     line-height: 35px;
 }
 
-/* just work page */
+#dhhr {
+    margin-top: -15px;
+    line-height: 35px;
+}
+
+/* athletic skills */
+
+#athletic-main-box {
+    height: 634px;
+    width: 937px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* WORK PAGE */
 
 #main-containerpg3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 1px black;
+    border: solid 0px;
     width: 1024px;
     height: 3000px;
     margin: 0 auto;
