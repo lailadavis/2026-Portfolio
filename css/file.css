@@ -411,3 +411,34 @@ p {
     font-family: kepler-std-caption, serif;
     font-weight: bold;
 }
+
+/* education */
+
+#education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 937px;
+    height: 265px;
+    background-color: #b4b7d0;
+}
+
+#edu {
+    margin-top: 25px;
+}
+
+.edu-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 937px;
+}
+
+#s {
+    margin-top: 13px;
+}
+
+#rc {
+    line-height: 35px;
+    margin-top: 7px;
+}
