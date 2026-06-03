@@ -243,16 +243,48 @@ body {
 
 #mes1 {
     position: absolute;
-    top: 1100px;
-    left: 1200px;
+    top: 1125px;
+    left: 1175px;
     transition: transform 0.5s ease-in-out;
     transform: rotate(0deg);
 }
 
 #mes1:hover {
     position: absolute;
-    top: 1100px;
-    left: 1200px;
+    top: 1125px;
+    left: 1175px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+#mes2 {
+    position: absolute;
+    top: 1385px;
+    left: 1250px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#mes2:hover {
+    position: absolute;
+    top: 1385px;
+    left: 1250px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+#mes3 {
+    position: absolute;
+    top: 1240px;
+    left: 1427px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#mes3:hover {
+    position: absolute;
+    top: 1240px;
+    left: 1427px;
     transition: transform 0.5s ease-in-out;
     transform: rotate(360deg);
 }
@@ -281,6 +313,24 @@ body {
 
 p {
     border: solid 0px;
+}
+
+#phone {
+    height: 45px;
+    position: absolute;
+    top: 1460px;
+    left: 850px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#phone:hover {
+    height: 45px;
+    position: absolute;
+    top: 1460px;
+    left: 850px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
 }
 
 /* SKILLS PAGE */
