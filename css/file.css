@@ -354,6 +354,40 @@ p {
     width: 937px;
     display: flex;
     justify-content: space-around;
+    border: solid 0px;
+    flex-direction: row;
+}
+
+#ass1 {
+    position: absolute;
+    top: 664px;
+    left: 812px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#ass1:hover {
+    position: absolute;
+    top: 664px;
+    left: 812px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+#ass2 {
+    position: absolute;
+    top: 702px;
+    left: 1066px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#ass2:hover {
+    position: absolute;
+    top: 702px;
+    left: 1066px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
 }
 
 /* clubs */
@@ -489,6 +523,46 @@ p {
 }
 
 #rc {
-    line-height: 35px;
-    margin-top: 7px;
+    line-height: 42px;
+    margin-top: 4px;
+}
+
+/* experience */
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 937px;
+    height: 490px;
+    background-color: #b4b7d0;
+}
+
+#re {
+    margin-top: 8px;
+}
+
+.re-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 937px;
+}
+
+#dc {
+    margin-top: 16px;
+}
+
+#y {
+    margin-top: 21px;
+}
+
+#sktk {
+    line-height: 40px;
+    margin-top: 1px;
+    margin-bottom: -1px;
+}
+
+#bs {
+    margin-top: 20px;
 }
