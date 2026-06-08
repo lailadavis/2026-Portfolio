@@ -8,7 +8,7 @@ body {
     align-items: center;
     border: solid 0px;
     width: 1024px;
-    height: 2000px;
+    height: 1985px;
     margin: 0 auto;
     font-family: kepler-std-caption, serif;
     font-weight: bold;
@@ -110,24 +110,24 @@ body {
 
 #ams1 {
     position: absolute;
-    top: 664px;
-    left: 878px;
+    top: 668px;
+    left: 882px;
     transition: transform 0.5s ease-in-out;
     transform: rotate(0deg);
 }
 
 #ams1:hover {
     position: absolute;
-    top: 664px;
-    left: 878px;
+    top: 668px;
+    left: 882px;
     transition: transform 0.5s ease-in-out;
     transform: rotate(360deg);
 }
 
 #ams2 {
     position: absolute;
-    top: 700px;
-    left: 1000px;
+    top: 698px;
+    left: 998px;
     transition: transform 0.5s ease-in-out;
     transform: rotate(0deg);
 }
@@ -238,7 +238,6 @@ body {
 
 #me-text {
     margin-top: 480px;
-    /* margin-left: 54px; */
 }
 
 #mes1 {
@@ -341,7 +340,7 @@ p {
     align-items: center;
     border: solid 0px;
     width: 1024px;
-    height: 3000px;
+    height: 3075px;
     margin: 0 auto;
     font-family: kepler-std-caption, serif;
     font-weight: bold;
@@ -358,34 +357,20 @@ p {
     flex-direction: row;
 }
 
-#ass1 {
+#aruler {
+    height: 60px;
     position: absolute;
-    top: 664px;
-    left: 812px;
+    top: 658px;
+    left: 790px;
     transition: transform 0.5s ease-in-out;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
 }
 
-#ass1:hover {
+#aruler:hover {
+    height: 60px;
     position: absolute;
-    top: 664px;
-    left: 812px;
-    transition: transform 0.5s ease-in-out;
-    transform: rotate(360deg);
-}
-
-#ass2 {
-    position: absolute;
-    top: 702px;
-    left: 1066px;
-    transition: transform 0.5s ease-in-out;
-    transform: rotate(0deg);
-}
-
-#ass2:hover {
-    position: absolute;
-    top: 702px;
-    left: 1066px;
+    top: 658px;
+    left: 790px;
     transition: transform 0.5s ease-in-out;
     transform: rotate(360deg);
 }
@@ -403,8 +388,8 @@ p {
 }
 
 #club-top {
-    margin-top: 40px;
-    margin-bottom: 10px;
+    margin-top: 42px;
+    margin-bottom: 13px;
 }
 
 .clubs-ptag-lines {
@@ -431,7 +416,8 @@ p {
 }
 
 #lang {
-    margin-top: 10px;
+    margin-top: -5px;
+    margin-bottom: 10px;
 }
 
 .lang-ptag-lines {
@@ -454,7 +440,7 @@ p {
 
 #a-r {
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 
 .ar-ptag-lines {
@@ -480,6 +466,444 @@ p {
     width: 937px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#belt {
+    height: 45px;
+    position: absolute;
+    top: 1044px;
+    left: 1068px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#belt:hover {
+    height: 45px;
+    position: absolute;
+    top: 1044px;
+    left: 1068px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+/* teams */
+
+#teams {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 471px;
+    height: 465px;
+    background-color: #b4b7d0;
+}
+
+#team {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.team-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 471px;
+}
+
+#ss {
+    margin-top: 1px;
+    line-height: 43px;
+    margin-bottom: -1px;
+}
+
+#b {
+    margin-top: 18px;
+}
+
+/* awards, recognition, certs */
+
+#awards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 456px;
+    height: 465px;
+    background-color: #b4b7d0;
+}
+
+#arc {
+    margin-top: 27px;
+}
+
+#certs {
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+.arc-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 456px;
+}
+
+#comps {
+    margin-top: 0px;
+    line-height: 43px;
+    margin-bottom: 0px;
+}
+
+#third {
+    margin-top: 20px;
+}
+
+/* performances */
+
+#performances {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 471px;
+    height: 196px;
+    background-color: #b4b7d0;
+    margin-top: 5px;
+}
+
+#perform {
+    margin-top: 25px;
+    margin-bottom: -7px;
+}
+
+.perf-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 450px;
+}
+
+#creativity {
+    line-height: 38px;
+    margin-bottom: -5px;
+}
+
+/* leadership */
+
+#leadership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 457px;
+    height: 196px;
+    background-color: #b4b7d0;
+    margin-top: 5px;
+}
+
+#leader {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.perf-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 457px;
+}
+
+/* artistic skills */
+
+#artistic-main-box {
+    width: 937px;
+    height: 765px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+#acs {
+    margin-top: 75px;
+    margin-bottom: 40px;
+    color: #8288ba;
+}
+
+#mouse {
+    height: 47px;
+    position: absolute;
+    top: 1826px;
+    left: 802px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(-2deg);
+}
+
+#mouse:hover {
+    height: 47px;
+    position: absolute;
+    top: 1826px;
+    left: 802px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+/* tech and software */
+
+#tech-and-soft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 937px;
+    height: 272px;
+    background-color: #b4b7d0;
+}
+
+#tech {
+    margin-top: 40px;
+    margin-bottom: -6px;
+}
+
+.tech-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 937px;
+}
+
+#soft {
+    line-height: 42px;
+}
+
+/* comp results */
+
+#left-artistic {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 368px;
+    width: 472px;
+}
+
+#comp-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 472px;
+    height: 230px;
+    background-color: #b4b7d0;
+}
+
+#comp {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.comp-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 472px;
+}
+
+#tsa2 {
+    line-height: 43px;
+    margin-top: 4px;
+}
+
+/* leadership */
+
+#aleadership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 472px;
+    height: 133px;
+    background-color: #b4b7d0;
+}
+
+#alead {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.lead-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 472px;
+}
+
+/* screenings */
+
+#s-e-and-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 460px;
+    height: 368px;
+    background-color: #b4b7d0;
+    margin-left: 5px;
+}
+
+#se {
+    margin-top: 20px;
+    margin-bottom: -25px;
+}
+
+#perf {
+    margin-bottom: 10px;
+}
+
+.sep-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 457px;
+}
+
+#performer {
+    line-height: 46px;
+    margin-top: -2px;
+    margin-bottom: -4px;
+}
+
+/* clubs */
+
+#aclubs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 937px;
+    height: 110px;
+    background-color: #b4b7d0; 
+}
+
+#aclub {
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.aclub-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 937px;
+}
+
+/* personal skills */
+
+#personal-main-box {
+    width: 937px;
+    height: 169px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    gap: 5.5px;
+}
+
+#pss1 {
+    position: absolute;
+    top: 2708px;
+    left: 818px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#pss1:hover {
+    position: absolute;
+    top: 2708px;
+    left: 818px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+#pss2 {
+    position: absolute;
+    top: 2744px;
+    left: 1060px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#pss2:hover {
+    position: absolute;
+    top: 2744px;
+    left: 1060px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+/* leadership */
+
+#pleadership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 300px;
+    height: 169px;
+    background-color: #b4b7d0;
+}
+
+#plead {
+    margin-top: -26px;
+    margin-bottom: 10px;
+}
+
+.plead-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 300px;
+}
+
+/* skills */
+
+#pskills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 335px;
+    height: 169px;
+    background-color: #b4b7d0;
+}
+
+#pskill {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.pskills-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 335px;
+}
+
+#skill-spacing {
+    line-height: 43px;
+    margin-top: 0px;
+}
+
+/* clubs */
+
+#pclubs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 285px;
+    height: 169px;
+    background-color: #b4b7d0;
+}
+
+#pclub {
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+.pclubs-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 285px;
 }
 
 /* WORK PAGE */
@@ -490,7 +914,7 @@ p {
     align-items: center;
     border: solid 0px;
     width: 1024px;
-    height: 3000px;
+    height: 2235px;
     margin: 0 auto;
     font-family: kepler-std-caption, serif;
     font-weight: bold;
@@ -506,6 +930,24 @@ p {
     width: 937px;
     height: 265px;
     background-color: #b4b7d0;
+}
+
+#eruler {
+    height: 60px;
+    position: absolute;
+    top: 658px;
+    left: 829px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(-5deg);
+}
+
+#eruler:hover {
+    height: 60px;
+    position: absolute;
+    top: 658px;
+    left: 829px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
 }
 
 #edu {
@@ -539,6 +981,38 @@ p {
     background-color: #b4b7d0;
 }
 
+#exs1 {
+    position: absolute;
+    top: 1051px;
+    left: 847px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#exs1:hover {
+    position: absolute;
+    top: 1051px;
+    left: 847px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+#exs2 {
+    position: absolute;
+    top: 1082px;
+    left: 1034px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#exs2:hover {
+    position: absolute;
+    top: 1082px;
+    left: 1034px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
 #re {
     margin-top: 8px;
 }
@@ -565,4 +1039,74 @@ p {
 
 #bs {
     margin-top: 20px;
+}
+
+/* community service */
+
+#community-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 0px;
+    width: 937px;
+    height: 365px;
+    background-color: #b4b7d0;
+}
+
+#css1 {
+    position: absolute;
+    top: 1660px;
+    left: 792px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#css1:hover {
+    position: absolute;
+    top: 1660px;
+    left: 792px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+#css2 {
+    position: absolute;
+    top: 1691px;
+    left: 1090px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#css2:hover {
+    position: absolute;
+    top: 1691px;
+    left: 1090px;
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+#cs {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.cs-ptag-lines {
+    display: flex;
+    border: solid 0px;
+    width: 930px;
+}
+
+#cs1 {
+    line-height: 47px;
+    margin-top: 0px;
+}
+
+#cs2 {
+    line-height: 47px;
+    margin-top: -20px;
+}
+
+#cs3 {
+    line-height: 46px;
+    margin-top: -19px;
 }
