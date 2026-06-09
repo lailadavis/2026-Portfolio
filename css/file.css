@@ -134,8 +134,8 @@ body {
 
 #ams2:hover {
     position: absolute;
-    top: 700px;
-    left: 1000px;
+    top: 698px;
+    left: 998px;
     transition: transform 0.5s ease-in-out;
     transform: rotate(360deg);
 }
